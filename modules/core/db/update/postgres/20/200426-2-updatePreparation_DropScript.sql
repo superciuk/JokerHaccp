@@ -1,0 +1,8 @@
+alter table JOKERHACCP_PREPARATION drop column NAME__U50068 cascade ;
+alter table JOKERHACCP_PREPARATION drop column RONER__U24070 cascade ;
+alter table JOKERHACCP_PREPARATION drop column RONER_TIME_IN_MINUTES__U09057 cascade ;
+alter table JOKERHACCP_PREPARATION drop column BLAST_CHILLER__U67400 cascade ;
+alter table JOKERHACCP_PREPARATION drop column BLAST_CHILLER_TIME_IN_MINUTES__U17670 cascade ;
+alter table JOKERHACCP_PREPARATION drop column VACUUM_PACKED__U35233 cascade ;
+alter table JOKERHACCP_PREPARATION drop column STORAGE_TEMPERATURE__U73134 cascade ;
+alter table JOKERHACCP_PREPARATION drop column STORAGE_TIME_IN_DAYS__U18578 cascade ;

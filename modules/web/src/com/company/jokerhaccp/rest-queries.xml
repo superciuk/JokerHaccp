@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<queries xmlns="http://schemas.haulmont.com/cuba/rest-queries.xsd">
+    <query name="contacts" entity="jokerhaccp_Contact" view="_local">
+        <jpql><![CDATA[select c from jokerhaccp$Contact c order by c.surname]]></jpql>
+    </query>
+    <query name="preparationPrototypes" entity="jokerhaccp_Preparation_Prototype" view="_local">
+        <jpql><![CDATA[select c from jokerhaccp$Preparation_Prototype c order by c.name]]></jpql>
+    </query>
+    <query name="products" entity="jokerhaccp_Product" view="_local">
+        <jpql><![CDATA[select c from jokerhaccp$Product c order by c.name]]></jpql>
+    </query>
+    <query name="suppliers" entity="jokerhaccp_Supplier" view="_local">
+        <jpql><![CDATA[select c from jokerhaccp$Supplier c order by c.name]]></jpql>
+    </query>
+</queries>

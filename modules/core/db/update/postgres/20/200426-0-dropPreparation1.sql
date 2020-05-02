@@ -1,0 +1,1 @@
+alter table jokerhaccp_preparation_1 rename to JOKERHACCP_PREPARATION_1__U67713 ;

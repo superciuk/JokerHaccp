@@ -1,0 +1,15 @@
+alter table JOKERHACCP_SUPPLIER add column PHONE varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column CAP varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column FISCAL_CODE varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column PRODUCT_CATEGORY varchar(50) ;
+alter table JOKERHACCP_SUPPLIER add column ADDRESS varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column PRODUCT_ID uuid ;
+alter table JOKERHACCP_SUPPLIER add column PROVINCE varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column SDI varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column PEC varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column SUPPLIER_TYPE varchar(50) ;
+alter table JOKERHACCP_SUPPLIER add column COUNTRY varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column NAME varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column EMAIL_ADDRESS varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column CITY varchar(255) ;
+alter table JOKERHACCP_SUPPLIER add column VAT varchar(255) ;

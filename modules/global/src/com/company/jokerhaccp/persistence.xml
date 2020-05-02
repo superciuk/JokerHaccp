@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="jokerhaccp" transaction-type="RESOURCE_LOCAL">
+
+        <class>com.company.jokerhaccp.entity.Supplier</class>
+        <class>com.company.jokerhaccp.entity.Contact</class>
+        <class>com.company.jokerhaccp.entity.Product</class>
+        <class>com.company.jokerhaccp.entity.Purchase</class>
+        <class>com.company.jokerhaccp.entity.PreparationPrototype</class>
+        <class>com.company.jokerhaccp.entity.Preparation</class>
+    </persistence-unit>
+</persistence>

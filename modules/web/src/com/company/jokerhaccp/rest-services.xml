@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services xmlns="http://schemas.haulmont.com/cuba/rest-services-v2.xsd">
+
+    <service name="jokerhaccp_ContactService">
+        <method name="createContact">
+            <param name="name"/>
+            <param name="surname"/>
+            <param name="phone"/>
+            <param name="personalEmailAddress"/>
+            <param name="note"/>
+            <param name="supplierId"/>
+        </method>
+        <method name="updateContact">
+            <param name="id"/>
+        </method>
+        <method name="deleteContact">
+            <param name="id"/>
+        </method>
+    </service>
+
+</services>

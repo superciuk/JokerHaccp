@@ -1,0 +1,1 @@
+drop table if exists JOKERHACCP_PREPARATION_1__U67713 cascade ;
