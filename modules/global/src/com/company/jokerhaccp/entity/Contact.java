@@ -1,5 +1,6 @@
 package com.company.jokerhaccp.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.Lookup;
 import com.haulmont.cuba.core.entity.annotation.LookupType;
@@ -11,6 +12,7 @@ import javax.persistence.*;
 
 @Table(name = "JOKERHACCP_CONTACT")
 @Entity(name = "jokerhaccp_Contact")
+@NamePattern("%s - %s|name,surname")
 public class Contact extends StandardEntity {
     private static final long serialVersionUID = 6514117880556568837L;
 

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
 
+    <view entity="jokerhaccp_Contact" name="contact-view" extends="_local">
+        <property name="supplier" view="_minimal">
+            <property name="name"/>
+        </property>
+    </view>
+    <view entity="jokerhaccp_Supplier" name="supplier-view" extends="_local">
+        <property name="contacts" view="_minimal">
+            <property name="name"/>
+            <property name="surname"/>
+            <property name="phone"/>
+            <property name="personalEmailAddress"/>
+        </property>
+    </view>
+
 </views>

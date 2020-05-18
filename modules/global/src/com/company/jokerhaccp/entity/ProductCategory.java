@@ -12,7 +12,8 @@ public enum ProductCategory implements EnumClass<String> {
     latticini("latticini"),
     pesce("pesce"),
     carne("carne"),
-    bibite("bibite");
+    bibite("bibite"),
+    panini("panini");
 
     private String id;
 
